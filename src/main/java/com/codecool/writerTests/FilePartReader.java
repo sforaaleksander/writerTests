@@ -35,6 +35,10 @@ public class FilePartReader {
         }
         return stringBuilder.toString();
     }
+
+    public String accessGetLines() throws IOException {
+        return getLines();
+    }
 }
 
 
